@@ -1,0 +1,53 @@
+
+========================================
+XGBoost (OOF)
+========================================
+Macro F1: 0.9104
+
+              precision    recall  f1-score   support
+
+    Critical       0.94      0.98      0.96      1000
+        Poor       0.95      0.83      0.89      1000
+   Attention       0.75      0.97      0.85      1000
+        Good       0.98      0.78      0.87      1000
+   Excellent       0.99      0.99      0.99      1000
+
+    accuracy                           0.91      5000
+   macro avg       0.92      0.91      0.91      5000
+weighted avg       0.92      0.91      0.91      5000
+
+
+========================================
+LightGBM (OOF)
+========================================
+Macro F1: 0.9056
+
+              precision    recall  f1-score   support
+
+    Critical       0.93      0.96      0.95      1000
+        Poor       0.94      0.83      0.88      1000
+   Attention       0.76      0.97      0.85      1000
+        Good       0.96      0.77      0.86      1000
+   Excellent       0.99      0.99      0.99      1000
+
+    accuracy                           0.91      5000
+   macro avg       0.92      0.91      0.91      5000
+weighted avg       0.92      0.91      0.91      5000
+
+
+========================================
+TabNet (OOF)
+========================================
+Macro F1: 0.8642
+
+              precision    recall  f1-score   support
+
+    Critical       0.91      0.91      0.91      1000
+        Poor       0.87      0.80      0.83      1000
+   Attention       0.75      0.90      0.81      1000
+        Good       0.90      0.77      0.83      1000
+   Excellent       0.92      0.94      0.93      1000
+
+    accuracy                           0.86      5000
+   macro avg       0.87      0.86      0.86      5000
+weighted avg       0.87      0.86      0.86      5000

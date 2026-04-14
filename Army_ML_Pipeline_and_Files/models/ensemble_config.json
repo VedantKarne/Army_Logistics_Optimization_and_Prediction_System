@@ -1,0 +1,15 @@
+{
+  "champion_strategy": "Weighted Bayesian Blend",
+  "champion_f1": 0.9105828270378458,
+  "weighted_blend_params": {
+    "w_xgb": 0.9353,
+    "w_lgbm": 0.0011,
+    "w_tabnet": 0.0637
+  },
+  "leaderboard": {
+    "Simple Average": 0.9055584038193072,
+    "Weighted Bayesian Blend": 0.9105828270378458,
+    "Linear Stacking (Logistic)": 0.9019122283995602,
+    "Non-linear Stacking (RF)": 0.9097288549926722
+  }
+}

@@ -1,0 +1,38 @@
+# ============================================================
+# Military Vehicle Health ML Pipeline — Requirements
+# ============================================================
+# Install all with: pip install -r requirements.txt
+
+# Gradient Boosting
+xgboost>=2.0
+lightgbm>=4.0
+
+# Neural Networks (Tabular)
+pytorch-tabnet>=4.1
+torch>=2.0
+
+# TabPFN — zero-shot tabular foundation model (validated for <10K samples)
+tabpfn>=0.1.9
+
+# Hyperparameter Optimization
+optuna>=3.5
+optuna-integration>=3.5
+
+# Class Imbalance
+imbalanced-learn>=0.12
+
+# Explainability
+shap>=0.44
+
+# ML Utilities
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.1
+pyarrow>=15.0          # parquet I/O
+
+# Database
+mysql-connector-python>=8.3
+
+# Reporting
+matplotlib>=3.8
+seaborn>=0.13
